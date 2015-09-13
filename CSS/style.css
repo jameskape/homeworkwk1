@@ -1,0 +1,169 @@
+body {
+  font-family: "karla",sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+nav {
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  background: black;
+  color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+ul {
+  padding: 0;
+}
+
+li{
+  display: inline;
+  list-style: none;
+  padding-top: 3px;
+}
+
+footer li{
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  font-size: 18px;
+  padding-top: 4px;
+  width: 100%;
+  height: 60px;
+  color: #000000;
+  background: #f1f1f1;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+p {
+  line-height: 140%;
+  text-align: left;
+}
+
+
+/******************************
+TYPE STYLES
+*******************************/
+
+h1 {
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  font-size: 20px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+/* selected link */
+a:active {
+  color: #FFFFFF;
+}
+
+/******************************
+LINK FOOTER
+*******************************/
+
+
+a.footer:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* visited link */
+a.footer:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a.footer:hover {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+
+/* selected link */
+a:active {
+    color: #FFFFFF;
+}
+
+/******************************
+CLASS ELEMENTS
+*******************************/
+.active {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.black {
+  background: black;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 60px;
+}
+
+.wrapper {
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 700px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+
+.logo {
+  top: 30%;
+  width: 120px;
+  position: relative;
+  float: left;
+  padding-left: 30px;
+  padding-top: 3px;
+}
+
+.avatar {
+  max-width: 100%;
+  margin: 10px;
+  background-color:black;
+}
+
+.work {
+  max-width: 100%;
+  margin: 10px;
+  background-color:#f1f1f1;
+  border: 0px;
+}
+
+.primary-nav li{
+  float: right;
+  margin-right: 30px;
+}
